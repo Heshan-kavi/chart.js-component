@@ -11,6 +11,9 @@ export class ChartComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
+//     using chart.js to create a new doughnut chart
+    
     var myChart = new Chart("myCanvas", {
       type: 'doughnut',
       data: {
